@@ -1,0 +1,49 @@
+.inputContainer {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.inputContainer:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.iconDispplay {
+  display: grid;
+  place-content: center;
+  background-color: var(--iconDarkBackground);
+  border-top-left-radius: var(--borderRadiumSmall);
+  border-bottom-left-radius: var(--borderRadiumSmall);
+  height: var(--authFormFieldHeight);
+}
+
+.inputDispplay {
+  border-top-right-radius: var(--borderRadiumSmall);
+  border-bottom-right-radius: var(--borderRadiumSmall);
+}
+
+input {
+  background-color: var(--lightgrey);
+  border-top-right-radius: var(--borderRadiumSmall);
+  border-bottom-right-radius: var(--borderRadiumSmall);
+  height: var(--authFormFieldHeight);
+  border: none;
+  width: 100%;
+  padding-left: 9px;
+  font-weight: bold;
+  color: var(--white);
+}
+
+input::placeholder {
+  color: var(--white);
+  font-size: 10px;
+}
+
+input:focus {
+  /* outline: none; */
+  caret-color: var(--brandYellow);
+}
+
+p {
+  color: var(--white);
+  font-size: 9px;
+}

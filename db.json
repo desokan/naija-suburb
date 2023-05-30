@@ -1,0 +1,341 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "password": "$QwertY123",
+      "firstname": "John",
+      "lastname": "Doe",
+      "country": "USA",
+      "age": 25,
+      "sex": "male"
+    },
+    {
+      "id": 2,
+      "username": "user2",
+      "password": "$QwertY123",
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "country": "Canada",
+      "age": 30,
+      "sex": "female"
+    },
+    {
+      "id": 3,
+      "username": "user3",
+      "password": "$QwertY123",
+      "firstname": "Robert",
+      "lastname": "Johnson",
+      "country": "UK",
+      "age": 35,
+      "sex": "male"
+    },
+    {
+      "id": 4,
+      "username": "user4",
+      "password": "$QwertY123",
+      "firstname": "Emily",
+      "lastname": "Brown",
+      "country": "Australia",
+      "age": 28,
+      "sex": "female"
+    },
+    {
+      "id": 5,
+      "username": "user5",
+      "password": "$QwertY123",
+      "firstname": "Michael",
+      "lastname": "Lee",
+      "country": "USA",
+      "age": 32,
+      "sex": "male"
+    },
+    {
+      "id": 6,
+      "username": "user6",
+      "password": "$QwertY123",
+      "firstname": "Emma",
+      "lastname": "Taylor",
+      "country": "Canada",
+      "age": 29,
+      "sex": "female"
+    },
+    {
+      "id": 7,
+      "username": "user7",
+      "password": "$QwertY123",
+      "firstname": "Daniel",
+      "lastname": "Miller",
+      "country": "USA",
+      "age": 27,
+      "sex": "male"
+    },
+    {
+      "id": 8,
+      "username": "user8",
+      "password": "$QwertY123",
+      "firstname": "Olivia",
+      "lastname": "Wilson",
+      "country": "Australia",
+      "age": 31,
+      "sex": "female"
+    },
+    {
+      "id": 9,
+      "username": "user9",
+      "password": "$QwertY123",
+      "firstname": "Matthew",
+      "lastname": "Anderson",
+      "country": "USA",
+      "age": 33,
+      "sex": "male"
+    },
+    {
+      "id": 10,
+      "username": "user10",
+      "password": "$QwertY123",
+      "firstname": "Sophia",
+      "lastname": "Martin",
+      "country": "UK",
+      "age": 26,
+      "sex": "female"
+    },
+    {
+      "id": 11,
+      "username": "user11",
+      "password": "$QwertY123",
+      "firstname": "William",
+      "lastname": "Clark",
+      "country": "Canada",
+      "age": 34,
+      "sex": "male"
+    },
+    {
+      "id": 12,
+      "username": "user12",
+      "password": "$QwertY123",
+      "firstname": "Ava",
+      "lastname": "Walker",
+      "country": "Australia",
+      "age": 29,
+      "sex": "female"
+    },
+    {
+      "id": 13,
+      "username": "user13",
+      "password": "$QwertY123",
+      "firstname": "James",
+      "lastname": "Harris",
+      "country": "USA",
+      "age": 28,
+      "sex": "male"
+    },
+    {
+      "id": 14,
+      "username": "user14",
+      "password": "$QwertY123",
+      "firstname": "Isabella",
+      "lastname": "Lewis",
+      "country": "UK",
+      "age": 32,
+      "sex": "female"
+    },
+    {
+      "id": 15,
+      "username": "user15",
+      "password": "$QwertY123",
+      "firstname": "Benjamin",
+      "lastname": "Green",
+      "country": "Canada",
+      "age": 30,
+      "sex": "male"
+    },
+    {
+      "id": 16,
+      "username": "user16",
+      "password": "$QwertY123",
+      "firstname": "Mia",
+      "lastname": "Adams",
+      "country": "USA",
+      "age": 27,
+      "sex": "female"
+    },
+    {
+      "id": 17,
+      "username": "user17",
+      "password": "$QwertY123",
+      "firstname": "Alexander",
+      "lastname": "Parker",
+      "country": "Australia",
+      "age": 31,
+      "sex": "male"
+    },
+    {
+      "id": 18,
+      "username": "user18",
+      "password": "$QwertY123",
+      "firstname": "Abigail",
+      "lastname": "Carter",
+      "country": "USA",
+      "age": 33,
+      "sex": "female"
+    },
+    {
+      "id": 19,
+      "username": "user19",
+      "password": "$QwertY123",
+      "firstname": "Elijah",
+      "lastname": "Collins",
+      "country": "UK",
+      "age": 25,
+      "sex": "male"
+    },
+    {
+      "id": 20,
+      "username": "user20",
+      "password": "$QwertY123",
+      "firstname": "Sofia",
+      "lastname": "Morgan",
+      "country": "Canada",
+      "age": 28,
+      "sex": "female"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "postTitle": "Post 1",
+      "content": "I went to the park today and enjoyed the sunny weather. It was a great day to relax and spend time with friends. We had a picnic on the grass and played some games. The birds were chirping, and the flowers were in full bloom. Overall, it was a lovely day!",
+      "author": "John Doe",
+      "dateCreated": "2023-05-01",
+      "category": "Technology",
+      "dateEdited": "2023-05-02"
+    },
+    {
+      "id": 2,
+      "postTitle": "Post 2",
+      "content": "Yesterday, I visited a beautiful countryside village. The picturesque landscapes and charming cottages took my breath away. I explored narrow winding streets, lined with colorful flowers. The local pub served delicious homemade pies. It was a delightful experience that I'll cherish forever.",
+      "author": "Jane Smith",
+      "dateCreated": "2023-05-03",
+      "category": "Travel",
+      "dateEdited": "2023-05-04"
+    },
+    {
+      "id": 3,
+      "postTitle": "Post 3",
+      "content": "In the heart of London, I stumbled upon a hidden gem—a quaint tearoom. The aroma of freshly brewed tea filled the air as I indulged in scones with clotted cream and jam. The vintage decor and soft classical music created a serene atmosphere. It was a peaceful escape from the bustling city life.",
+      "author": "Robert Johnson",
+      "dateCreated": "2023-05-05",
+      "category": "Food",
+      "dateEdited": "2023-05-06"
+    },
+    {
+      "id": 4,
+      "postTitle": "Post 4",
+      "content": "Walking along the cobblestone streets of Edinburgh, I felt a sense of history and charm. The towering castle and medieval architecture mesmerized me. I immersed myself in Scottish culture, tasting traditional haggis and listening to bagpipe melodies. It was an unforgettable adventure that captured my heart.",
+      "author": "Emily Brown",
+      "dateCreated": "2023-05-07",
+      "category": "Travel",
+      "dateEdited": "2023-05-08"
+    },
+    {
+      "id": 5,
+      "postTitle": "Post 5",
+      "content": "Exploring the vibrant markets of Manchester was a treat for the senses. The bustling atmosphere, filled with the aroma of spices and street food, was intoxicating. I discovered unique crafts, clothing, and vintage treasures. It was a shopper's paradise that satisfied my wanderlust.",
+      "author": "Michael Lee",
+      "dateCreated": "2023-05-09",
+      "category": "Shopping",
+      "dateEdited": "2023-05-10"
+    },
+    {
+      "id": 6,
+      "postTitle": "Post 6",
+      "content": "Roaming the beautiful countryside of Wales, I was captivated by the rolling hills and scenic landscapes. The gentle sound of sheep grazing and the babbling brooks provided a peaceful soundtrack. It was a tranquil escape from the noise of the city—a place where nature embraced me.",
+      "author": "Emma Taylor",
+      "dateCreated": "2023-05-11",
+      "category": "Travel",
+      "dateEdited": "2023-05-12"
+    },
+    {
+      "id": 7,
+      "postTitle": "Post 7",
+      "content": "The historical city of Bath mesmerized me with its grand Georgian architecture and Roman baths. I immersed myself in the city's rich heritage, visiting museums and strolling along the elegant crescents. Bath's charm and elegance left an indelible mark on my travel memories.",
+      "author": "Daniel Miller",
+      "dateCreated": "2023-05-13",
+      "category": "Travel",
+      "dateEdited": "2023-05-14"
+    },
+    {
+      "id": 8,
+      "postTitle": "Post 8",
+      "content": "I recently attended a classical music concert at the Royal Albert Hall in London. The orchestra's performance was magnificent, filling the grand hall with breathtaking melodies. The acoustics were impeccable, creating a mesmerizing experience. It was an evening of pure enchantment and artistic brilliance.",
+      "author": "Olivia Wilson",
+      "dateCreated": "2023-05-15",
+      "category": "Music",
+      "dateEdited": "2023-05-16"
+    },
+    {
+      "id": 9,
+      "postTitle": "Post 9",
+      "content": "In the charming city of Oxford, I wandered through the prestigious university's historic colleges. The libraries and courtyards exuded an atmosphere of intellectual curiosity. I soaked up knowledge in the Bodleian Library and admired the spires of the Radcliffe Camera. It was an educational journey like no other.",
+      "author": "Matthew Anderson",
+      "dateCreated": "2023-05-17",
+      "category": "Education",
+      "dateEdited": "2023-05-18"
+    },
+    {
+      "id": 10,
+      "postTitle": "Post 10",
+      "content": "Visiting the stunning Lake District, I hiked through picturesque trails, surrounded by serene lakes and lush green valleys. The tranquility of nature enveloped me as I breathed in the fresh mountain air. It was a rejuvenating experience that reminded me of the beauty and power of the natural world.",
+      "author": "Sophia Martin",
+      "dateCreated": "2023-05-19",
+      "category": "Travel",
+      "dateEdited": "2023-05-20"
+    },
+    {
+      "id": 11,
+      "postTitle": "Post 11",
+      "content": "Indulging in traditional English afternoon tea is an experience not to be missed. Sipping fragrant tea from delicate china cups, I savored warm scones with clotted cream and strawberry jam. The exquisite pastries and finger sandwiches added to the delightful affair. It was a quintessentially British treat.",
+      "author": "William Clark",
+      "dateCreated": "2023-05-21",
+      "category": "Food",
+      "dateEdited": "2023-05-22"
+    },
+    {
+      "id": 12,
+      "postTitle": "Post 12",
+      "content": "Immersing myself in the vibrant energy of London's West End, I enjoyed a thrilling theater performance. The stage came alive with dazzling costumes, impressive sets, and mesmerizing talent. The magic of the show transported me to another world, leaving me in awe of the performing arts.",
+      "author": "Ava Walker",
+      "dateCreated": "2023-05-23",
+      "category": "Entertainment",
+      "dateEdited": "2023-05-24"
+    },
+    {
+      "id": 13,
+      "postTitle": "Post 13",
+      "content": "Walking through the historic streets of Cambridge, I marveled at the world-renowned university's stunning architecture. The majestic colleges and tranquil river created a picturesque setting. I soaked up the intellectual atmosphere and enjoyed punting along the River Cam. It was an intellectually stimulating adventure.",
+      "author": "James Harris",
+      "dateCreated": "2023-05-25",
+      "category": "Education",
+      "dateEdited": "2023-05-26"
+    },
+    {
+      "id": 14,
+      "postTitle": "Post 14",
+      "content": "Visiting Stonehenge was a mystical experience. The ancient stone circle stood proudly against the backdrop of the rolling Salisbury Plain. As the sun set, the stones cast long shadows, igniting a sense of wonder. It was a humbling encounter with a timeless monument.",
+      "author": "Isabella Lewis",
+      "dateCreated": "2023-05-27",
+      "category": "Travel",
+      "dateEdited": "2023-05-28"
+    },
+    {
+      "id": 15,
+      "postTitle": "Post 15",
+      "content": "In the charming Cotswolds village, I explored quaint streets lined with honey-colored cottages and blooming gardens. The scent of fresh flowers filled the air as I enjoyed a traditional cream tea in a cozy tearoom. It was a quintessential English experience that captured the essence of rural beauty.",
+      "author": "Benjamin Green",
+      "dateCreated": "2023-05-29",
+      "category": "Travel",
+      "dateEdited": "2023-05-30"
+    }
+  ]
+}

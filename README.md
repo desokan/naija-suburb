@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Project was created: 18-05-2023 @ 17:40.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
