@@ -7,13 +7,13 @@
 }
 
 :root {
-  --white: #C1C1C1;
-  --lightgrey: #373F4A;
-  --darkgrey: #222931;
-  --brandYellow: #ff9f2b;
+  --white: #ffffff;
+  --lightgrey: #7590b6;
+  --darkgrey: #f3f3f3;
+  --brandBlue: #122f7e;
   --iconDarkBackground: #1a1d22;
 
-  --authFormFieldHeight: 50px;
+  --authFormFieldHeight: 40px;
   --borderRadiumSmall: 5px;
 }
 

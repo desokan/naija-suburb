@@ -21,7 +21,6 @@
   font-weight: bold;
   font-size: 21px;
   margin-left: 15px;
-
   display: grid;
 }
 
@@ -35,4 +34,8 @@
   border: 1px #c2c1c18e solid;
   border-radius: 3px;
   padding-left: 7px;
+}
+
+p {
+  color: var(--lightgrey)
 }

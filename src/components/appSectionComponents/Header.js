@@ -2,6 +2,7 @@ import classes from "./Header.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
+
 const PageHeader = () => {
   return (
     <div className={classes.main}>
@@ -9,14 +10,14 @@ const PageHeader = () => {
         <FontAwesomeIcon icon={faBars} className={classes.iconStyle} />
       </div>
       <div className={classes.search}>
-        <form>
+        {/* <form>
           <input
             type="text"
             name="search"
             placeholder="Search"
             className={classes.searchInput}
           ></input>
-        </form>
+        </form> */}
       </div>
       <div>
         <p>Header</p>
@@ -26,3 +27,10 @@ const PageHeader = () => {
 };
 
 export default PageHeader;
+
+/*
+DOCUMENTATION
+
+1. Component shows the header section.
+2. CSS => Header.module.css
+*/

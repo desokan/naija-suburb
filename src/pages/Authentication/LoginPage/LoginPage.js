@@ -2,23 +2,26 @@ import { useState } from "react";
 import UserAuthForm from "../../../components/formComponents/UserAuthForm";
 import {
   faAt,
+  faGlobe,
   faLock,
   faSquarePhone,
-  faUser,
+  faAnglesRight,
 } from "@fortawesome/free-solid-svg-icons";
 import classes from "./LoginPage.module.css";
+import countries from "../../../utils/countries";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const LoginForm = () => {
   const [formData, setFormData] = useState({});
 
   const formFields = [
     {
-      name: "username",
-      label: "Username",
-      type: "text",
-      icon: faUser,
+      name: "telephone",
+      label: "Telephone",
+      type: "tel",
+      icon: faSquarePhone,
       iconSize: "sm",
-      placeholder: "USERNAME",
+      placeholder: "TELEPHONE",
       iconStyle: { color: "#C1C1C1" },
       required: true,
       notice: "",
@@ -35,17 +38,6 @@ const LoginForm = () => {
       notice: "",
     },
     {
-      name: "telephone",
-      label: "Telephone",
-      type: "tel",
-      icon: faSquarePhone,
-      iconSize: "sm",
-      placeholder: "TELEPHONE",
-      iconStyle: { color: "#C1C1C1" },
-      required: true,
-      notice: "",
-    },
-    {
       name: "password",
       label: "Password",
       type: "password",
@@ -55,6 +47,17 @@ const LoginForm = () => {
       iconStyle: { color: "#C1C1C1" },
       required: true,
       notice: "",
+    },
+    {
+      name: "country",
+      label: "Country",
+      type: "select",
+      icon: faGlobe,
+      iconSize: "sm",
+      placeholder: "USERNAME",
+      iconStyle: { color: "#C1C1C1" },
+      required: true,
+      options: countries,
     },
   ];
 
@@ -66,11 +69,22 @@ const LoginForm = () => {
 
   return (
     <div className={classes.container}>
-      <div>
-        <h1>Haola ADESOKAN</h1>
+      <div className={classes.brandSection}>
+        <div className={classes.brandLogo}>
+          <p>NiD</p>
+        </div>
+        <p className={classes.brandName}>NaijaSuburb</p>
       </div>
-      <div>
-        <UserAuthForm fields={formFields} onSubmit={handleSubmit} />
+      <div className={classes.formSection}>
+        <div>
+          <UserAuthForm fields={formFields} onSubmit={handleSubmit} />
+        </div>
+        <div className={classes.gotoLogin}>
+          <p>LOGIN</p>
+          <div className={classes.iconDisplay}>
+            <FontAwesomeIcon icon={faAnglesRight} />
+          </div>
+        </div>
       </div>
     </div>
   );
