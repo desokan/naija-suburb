@@ -1,7 +1,6 @@
-import classes from "./Header.module.css";
+import classes from "./MainNavigation.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 
 const PageHeader = () => {
   return (
@@ -11,12 +10,7 @@ const PageHeader = () => {
       </div>
       <div className={classes.search}>
         {/* <form>
-          <input
-            type="text"
-            name="search"
-            placeholder="Search"
-            className={classes.searchInput}
-          ></input>
+          <input type="text" name="search" placeholder="Search" className={classes.searchInput}></input>
         </form> */}
       </div>
       <div>
@@ -27,10 +21,3 @@ const PageHeader = () => {
 };
 
 export default PageHeader;
-
-/*
-DOCUMENTATION
-
-1. Component shows the header section.
-2. CSS => Header.module.css
-*/

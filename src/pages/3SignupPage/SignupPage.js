@@ -1,5 +1,5 @@
 import { useState } from "react";
-import UserAuthForm from "../../../components/formComponents/UserAuthForm";
+import UserAuthForm from "../../components/2Forms/UserAuthForm";
 import {
   faAt,
   faGlobe,
@@ -7,11 +7,11 @@ import {
   faSquarePhone,
   faAnglesRight,
 } from "@fortawesome/free-solid-svg-icons";
-import classes from "./LoginPage.module.css";
-import countries from "../../../utils/countries";
+import classes from "./SignupPage.module.css";
+import countries from "../../utils/countries";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const LoginForm = () => {
+const SignupPage = () => {
   const [formData, setFormData] = useState({});
 
   const formFields = [
@@ -90,4 +90,4 @@ const LoginForm = () => {
   );
 };
 
-export default LoginForm;
+export default SignupPage;

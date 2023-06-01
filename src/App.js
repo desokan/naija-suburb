@@ -1,14 +1,22 @@
-import LoginForm from "./pages/Authentication/LoginPage/LoginPage";
-import PageHeader from "./components/appSectionComponents/Header";
-import classes from "./App.module.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import SignupPage from "./pages/3SignupPage/SignupPage";
+import HomePage from "./pages/2HomePage/HomePage";
+import RootPage from "./pages/1RootPage/RootPage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <RootPage />,
+    children: [
+      { path: "/", element: <HomePage /> },
+      { path: "/signup", element: <SignupPage /> },
+      { path: "/service/:name", element: <SignupPage /> },
+    ],
+  },
+]);
 
 function App() {
-  return (
-    <div className={classes.appContainer}>
-      <PageHeader />
-      <LoginForm />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
