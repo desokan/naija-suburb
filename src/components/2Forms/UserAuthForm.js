@@ -7,7 +7,7 @@ function UserAuthForm({ fields, onSubmit }) {
   const [formState, setFormState] = useState({});
 
   const iconStyle = {
-    color: "#C1C1C1",
+    color: "#ffffff",
   };
 
   const handleInputChange = (event) => {

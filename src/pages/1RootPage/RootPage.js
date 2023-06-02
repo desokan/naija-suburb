@@ -6,7 +6,7 @@ function RootPage() {
   return (
     <div className={classes.content}>
       <MainNavigation />
-      <main>
+      <main className={classes.topOffset}>
         <Outlet />
       </main>
     </div>

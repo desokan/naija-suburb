@@ -19,30 +19,30 @@
 }
 
 .signUp {
-  background-color: rgb(20, 19, 19);
-  color: white;
+  background-color: var(--nidDarkGreen);
+  color: #191835;
   font-weight: bold;
-  padding: 3px 15px;
+  padding: 5px 15px;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 12px;
   position: absolute;
   top: 40%;
-  left: 40%;
+  left: 37%;
 }
 
 .aboutus {
   margin: 0 15px;
 }
 
-.aboutus h1 {
+.aboutus h1, .aboutus h2 {
   font-size: 21px;
-  color: #1b1b1b;
+  color: var(--nidDarBlue);
 }
 
 .aboutus p {
   line-height: 21px;
   font-size: 13px;
-  color: #1d1d1d;
+  color: var(--nidBlack);
   text-align: justify;
 }
 
@@ -51,28 +51,25 @@
   margin-bottom: 21px;
 }
 
-.services > p {
+.services {
+  margin-bottom: 21px;
+}
+
+.services > h2 {
   margin: 11px 15px;
   font-size: 21px;
-  color: #424242;
+  color: var(--nidDarBlue);
   font-weight: bold;
 }
 
-
 .features {
   margin: 0 15px;
-  /* margin-top: 15px; */
-  /* background-color: blueviolet; */
-  /* height: 475px; */
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 80px;
-  gap: 11px;
+  gap: 7px;
 }
 
-/* .row {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-} */
+.linkstyle {
+  text-decoration: none;
+}

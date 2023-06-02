@@ -1,11 +1,14 @@
 .main {
   /* background-color: #ffffff; */
   height: 55px;
-  color: var(--lightgrey);
-
   display: grid;
   grid-template-columns: 45px 1fr 55px;
   align-items: center;
+  border-bottom: solid .5px #dddddd;
+  z-index: 11;
+  position: fixed;
+  background-color: #ffffff;
+  width: 100%;
 }
 
 .search {
@@ -13,7 +16,7 @@
 }
 
 .icon {
-  color: var(--brandYellow);
+  color: var(--nidDarkGreen);
   font-weight: bold;
   font-size: 21px;
   margin-left: 11px;

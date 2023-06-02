@@ -7,13 +7,24 @@
 }
 
 :root {
-  --white: #ffffff;
-  --lightgrey: #7590b6;
-  --darkgrey: #f3f3f3;
-  --brandBlue: #122f7e;
-  --iconDarkBackground: #1a1d22;
+  --nidDarkGreen: #5ba551;
+  --nidDarBlue: #191835;
+  --nidBlack: #000000;
 
-  --authFormFieldHeight: 40px;
+  --nidDark: #3b5998;
+  --nidLight: #8b9dc3;
+  --nidLighter: #6488eb;
+  --nidDarkGrey: #828894;
+  --nidLightGrey: #e9ebee;
+
+  --white: #ffffff;
+  --lightgrey: #6488eb;
+  --darkgrey: #f0f0f0;
+  --brandBlue: #122f7e;
+  --iconDarkBackground: #2f3642;
+  --brandLightBlue: #1b74e4;
+
+  --authFormFieldHeight: 37px;
   --borderRadiumSmall: 5px;
 }
 

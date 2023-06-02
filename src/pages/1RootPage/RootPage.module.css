@@ -6,3 +6,7 @@
   min-width: 320px;
   max-width: 430px;
 }
+
+.topOffset {
+  padding-top: 55px;
+}

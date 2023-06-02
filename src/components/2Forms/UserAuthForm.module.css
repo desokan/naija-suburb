@@ -37,7 +37,7 @@ select {
 
 input::placeholder {
   color: var(--white);
-  font-size: 11px;
+  font-size: 12px;
 }
 
 input:focus {
@@ -57,11 +57,11 @@ select {
 }
 
 .submitButton {
-  background-color: var(--brandBlue);
+  background-color: var(--nidDark);
   border: none;
   border-top-right-radius: var(--borderRadiumSmall);
   border-bottom-right-radius: var(--borderRadiumSmall);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   color: white;
 }
@@ -71,9 +71,15 @@ select {
   margin-top: -9px;
   margin-bottom: 23px;
   line-height: 13px;
+  color: var(--nidDarkGrey);
+}
+
+.termsConditions p {
+  color: var(--nidDarkGrey);
+  font-weight: bold;
 }
 
 .termsConditions span {
-  color: var(--brandBlue);
+  color: var(--nidLighter);
   font-weight: bold;
 }

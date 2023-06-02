@@ -21,8 +21,8 @@ const SignupPage = () => {
       type: "tel",
       icon: faSquarePhone,
       iconSize: "sm",
-      placeholder: "TELEPHONE",
-      iconStyle: { color: "#C1C1C1" },
+      placeholder: "Telephone",
+      iconStyle: { color: "#ffffff" },
       required: true,
       notice: "",
     },
@@ -32,8 +32,8 @@ const SignupPage = () => {
       type: "email",
       icon: faAt,
       iconSize: "sm",
-      placeholder: "EMAIL",
-      iconStyle: { color: "#C1C1C1" },
+      placeholder: "Email Address",
+      iconStyle: { color: "#ffffff" },
       required: true,
       notice: "",
     },
@@ -43,8 +43,8 @@ const SignupPage = () => {
       type: "password",
       icon: faLock,
       iconSize: "sm",
-      placeholder: "PASSWORD",
-      iconStyle: { color: "#C1C1C1" },
+      placeholder: "Password",
+      iconStyle: { color: "#ffffff" },
       required: true,
       notice: "",
     },
@@ -54,8 +54,7 @@ const SignupPage = () => {
       type: "select",
       icon: faGlobe,
       iconSize: "sm",
-      placeholder: "USERNAME",
-      iconStyle: { color: "#C1C1C1" },
+      iconStyle: { color: "#ffffff" },
       required: true,
       options: countries,
     },
@@ -76,11 +75,9 @@ const SignupPage = () => {
         <p className={classes.brandName}>NaijaSuburb</p>
       </div>
       <div className={classes.formSection}>
-        <div>
-          <UserAuthForm fields={formFields} onSubmit={handleSubmit} />
-        </div>
+        <UserAuthForm fields={formFields} onSubmit={handleSubmit} />
         <div className={classes.gotoLogin}>
-          <p>LOGIN</p>
+          <p>Have an account? Go to Login</p>
           <div className={classes.iconDisplay}>
             <FontAwesomeIcon icon={faAnglesRight} />
           </div>

@@ -1,5 +1,5 @@
 const countries = [
-  'COUNTRY',
+  'Country',
   "United Kingdom",
   "United State",
   "Canada",
